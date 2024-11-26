@@ -1,8 +1,9 @@
-/* General Reset */
+/* full-web-page */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
+    
 }
 
 /* Navbar */
@@ -79,7 +80,11 @@ body {
     border-bottom: 1px solid #ddd;
     margin-bottom: 15px;
 }
-
+/* font-awesome-style  */
+.fa-heart{
+    color: red;
+    margin-left: 10px;
+}
 /* Footer */
 footer {
     background: #f8f8f8;
