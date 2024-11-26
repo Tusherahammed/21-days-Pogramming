@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background: #7FFF00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+/* Products Section */
+.products {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.product img {
+    width: 50%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+footer ul li a{
+    text-decoration: none;
+}
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
