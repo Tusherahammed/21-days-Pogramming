@@ -33,7 +33,7 @@ body {
 }
 
 .btn {
-    background: #7FFF00;
+    background: hsl(90, 100%, 50%);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -50,10 +50,16 @@ body {
 
 .hero-text {
     max-width: 50%;
+
+}
+.hero-text h1{
+    font-weight: 900;
 }
 
 .hero-image img {
-    max-width: 100%;
+    width:489.6px ;
+    Height:450px;
+   border-radius: 32px; 
 }
 
 /* Products Section */
@@ -76,7 +82,8 @@ body {
 }
 
 .product img {
-    width: 50%;
+    height: 273px;
+    width: 242px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 15px;
 }
@@ -100,4 +107,7 @@ footer ul li a{
     justify-content: center;
     gap: 10px;
     
+}
+footer input {
+    gap: 20px;
 }
